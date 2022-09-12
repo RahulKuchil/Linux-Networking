@@ -1,0 +1,80 @@
+1> ifconfig : It is used to display the route and network interface such as 
+IP address,MAC address
+	syntax: ifconfig
+
+2> ip : This command is similar to ifconfig .This command is used to get details of specific interface.
+	syntax: ip a show eth0
+
+3> traceroute : This command provides how data on the internet travels from its source to its destination.
+	syntax: traceroute <destination>
+
+4> tracepath : This command is similar to trceroute .
+	syntax: tracepath <destination> 
+
+5> ping (Packet INternet Groper): This command is used to troubleshoot the network. It is used to check the network connectivity between two nodes.
+	syntax: ping <destination>
+
+6> netstat (Network Statistics) : This command provides the information about the  open sockets,routing table and connection information.
+	syntax: netstat
+
+7> ss : This command is similar to netstat .It provides the information much faster than netstat.
+	syntax: ss
+
+8> dig ( Domian Information Groper) : This command is used in DNS lookup query in DNS name server. It is also used to troubleshoot the DNS related issues.
+	syntax: dig <destination>
+
+9> nslookup : This command is similar to dig. It is the older version of dig
+	syntax: nslookup <destination> 
+
+10> route : This command displays the routing table information of your existing system . It's basically used to find the best way to send the packets across to a destination.
+	syntax: route
+
+11> host : This command displays the domain name for a given IP address and IP address for the given hostname.
+	syntax: host <domain name/ip address>
+
+12> arp (Address Resolution Protocol) : It is used to view and add content to the ARP table
+	syntax: arp
+
+13> iwconfig : This command is used to configure the wireless network interface. It is used to set and view the basic WI-FI details like SSID etc.
+	syntax: iwconfig
+
+14> hostname : This command is used to view and set a hostname of a system.
+	syntax: hostname
+		hostname <newname>
+
+15> curl & wget : This command is used to download the files from the internet through CLI.
+	syntax:  curl -O <fileLink>
+		 wget <fileLink>
+
+16> mtr : This command is the combination of ping and the traceroute command. It displays the information regarding the packet and also used to view the issues.
+	syntax: mtr <path>
+
+17> whois : This command is used to fetch all the information related to a website .
+	syntax: whois <websiteName>
+
+18> ifplugstatus : This command is used to check if a cable  is plugged into the network interface.
+	syntax: ifplugstatus
+
+19> iftop : This command is used in traffic monitoring.
+	syntax: sudo iftop -I <interface>
+
+20> tcpdump : This command captures the traffic that is passing through the network interface and displays it.
+	syntax: tcpdump -i <network_device>
+
+21> nmap (Network Mapper) : It is a scanning tool that uses IP packets to identify all the devices connected to network and provides the information they are running.
+	syntax: nmap <ipaddress>
+
+22> sudo (Super User do) : This command allows user to execute the command as super user.
+	syntax: sudo <command>
+
+
+
+
+
+
+
+
+
+ 
+
+
