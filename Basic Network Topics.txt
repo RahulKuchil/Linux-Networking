@@ -1,0 +1,109 @@
+1) Network Topologies : Are the network architecture of the network which includes computer,cables,switches,routers etc
+     Different Topologies are:
+	Bus Topology: All the devices are connected to the single cable.
+	Ring Topology: All the devices are to the single path whose ends are joined to form a circle.
+	Star Topology: All the devices are connected to the central unit ,usually a hub.
+	Mesh Topology: There is no central points.Instead each devices are connected to at least one another node and usually to more than one.
+
+2) LAN(Local Area Network):
+	LAN is a local network ,network devices connected together within the same geographic location such as building, office or home.(Switch,Hub)
+	Upto 1 km range , speed 100 or 1000 Mbps
+   MAN (Metropolitan Area Network):
+	 MAN is consisting of a computer network across an entire city, college campus, or a small region.
+         This type of network is large than a LAN, which is mostly limited to a single building or site. 
+	 Depending upon the type of configuration, this type of network allows you to cover an area from several miles to tens of miles.
+   WAN (Wide Area Network):
+	WAN  is a collection of Local area network.A WAN is essentially  a network of networks (Routers)
+	upto lakhs of km range , speed is based on bandwidth 
+
+3) OSI Layers (Open Systems Interconnection): It is used to describe the function of network system
+     There are seven layer:
+	Layer 7 – Application Layer  (These applications produce the data, which has to be transferred over the network.)
+	Layer 6 – Presentation Layer  (The data from the application layer is extracted here and manipulated as per the required format to transmit over the network.)
+	Layer 5 – Session Layer   (This layer is responsible for the establishment of connection, maintenance of sessions, also ensures security. )
+	Layer 4 – Transport Layer (It is responsible for the End to End Delivery of the complete message.)
+	Layer 3 – Network Layer	  (The network layer works for the transmission of data from one host to the other located in different networks.)
+	Layer 2 – Data-link Layer (The main function of this layer is to make sure data transfer is error-free from one node to another, over the physical layer.)
+	Layer 1 – Physical Layer  (It is responsible for the actual physical connection between the devices.)
+
+4) IP(Internet Protocol) Address:It is a 32bit unique address that identifies a device on the internet.
+    IP address classes:
+	*Public IP address:
+	Class-A : There are 128 possible Class A networks.(0.0.0.0 to 127.0.0.0)
+			 127.0.0.0 is considered a loopback address.
+	Class-B : Class B networks are from 128.0.0.0 to 191.255.0.0
+	Class-C : Class C networks are from 192.0.0.0 to 223.255.255.0
+	Class-D (Multicast address) : 224.0.0.0 to 239.255.255.255
+	Class-E : 240.0.0.0 to 255.255.255.255
+
+	*Private addresses:
+	10.0.0.0 - 10.255.255.255
+	172.16.0.0 - 172.31.255.255
+	192.168.0.0 - 192.168.255.255
+
+5) Routing Protocols
+	*Routing information protocol (RIP)
+	  RIP,is one of the first protocols created.It evaluates network paths based on the hops to destination
+	  There are two different versions of this protocol type: RIPv1 and RIPv2.
+	*Enhanced interior gateway routing protocol(EIGRP)
+	  Cisco developed EIGRP, which allows for 255 hops.
+	*Open shortest path first (OSPF)
+	  OSPF uses the shortest path first (SPF) algorithm to ensure the efficient transmission of data.
+
+6) Network Components
+	Swithes : Switches work as a controller which connects computers, printers, and other hardware devices to a network in a campus or a building.
+		  It allows devices on your network to communicate with each other, as well as with other networks.
+	
+	Router : Routers help you to connect with multiple networks. A router is a device that communicates between the internet 
+
+	Server : A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network. 
+	  	
+7) Network Port :
+      A port is a physical docking point using which an external device can be connected to the computer.
+       There are 65535 ports per IP address.
+       There are three categories for ports 
+		*) 0 to 1023 – well known ports or system ports.
+			Port number           Service name
+			  20,21	   	 File Transfer Protocol
+			    23		 Telnet
+			    25	         Simple Mail Transfer Protocol(SMTP)
+			    53		 Domain Name System(DNS)
+		   	   110	    	 Post Office Protocol(POP3)
+			   123	 	 Network Time Protocol(NTP)
+		*) 1024 to 49151 – registered ports assigned by IANA to a specific service upon application by a requesting entity.
+		*) 49152 to 65535 – dynamic (private, high) ports. Can be used by private or customer service or temporal purposes.
+
+8) TCP/IP Layer (Transmission Control Protocol / Internet Protocol :      			
+     There are 4 layers :
+	Layer-4 Process/Application Layer    (It is responsible for node-to-node communication and controls user-interface specifications. )
+	Layer-3 Host-to-Host/Transport Layer (It is responsible for end-to-end communication and error-free delivery of data.)
+	Layer-2 Internet Layer 		     (It defines the protocols which are responsible for logical transmission of data over the entire network. )
+	Layer-1 Network Access/Link Layer    (It looks out for hardware addressing and the protocols present in this layer allows for the physical transmission of data)
+
+9) DNS (Domian Name System):
+      DNS translates domain names (google.com,facebook.com etc) to IP addresses so browsers can load Internet resources.
+      An IP address is given to each device on the Internet, and that address is necessary to find the appropriate Internet devices. 
+      When a user wants to load a webpage, a translation must occur between what a user types into their web browser (facebook.com) 
+      and the machine-friendly address necessary to locate the  webpage.
+
+10)DHCP (Dynamic Host Configuration Protocol):
+      DHCP is a client/server protocol that automatically provides an Internet Protocol (IP) host with its IP address and other related configuration information such as the subnet mask and default gateway.
+      DORA is the process that is used by DHCP. DORA helps in providing an IP address to hosts or client machines. DORA is the process that follows some steps between the server and client.
+      It gets the IP address from the centralized server.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
